@@ -4,7 +4,6 @@ services:
     image: wolfi-php-symonfy
     build:
       dockerfile: ../Dockerfile
-
     restart: unless-stopped
     working_dir: /app
     volumes:

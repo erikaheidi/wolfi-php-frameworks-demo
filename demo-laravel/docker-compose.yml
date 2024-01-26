@@ -3,11 +3,7 @@ services:
   app:
     image: wolfi-php-laravel
     build:
-      args:
-        user: erika
-        uid: 1000
       dockerfile: ../Dockerfile
-
     restart: unless-stopped
     working_dir: /app
     volumes:
